@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>User Login Page</title>
+</head>
+<body>
+    <header></header>
+    <main>
+       
+        <div class="mainbody">
+            <div class="mainbox">
+                <section class="box1">
+                    <button id="btn1one">Login Page</button>
+                    
+                </section><br>
+                <section class="form_login">
+                        <p>
+                            “I’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.” 
+                        </p><br> 
+                        <input type="text" class="input_login_name" id="User_name" onkeyup="verifyusername()" placeholder="User Name" > <br> <br>
+                        <dd id="User_name_msg" ></dd>
+                        <br>
+                        <input type="text" onkeyup="verifypassword()" class="input_login_pasword" id="Password" placeholder="Password" ><br><br>
+                        <dd id="User_pass_msg"></dd>
+                        <br>
+                        <input type="checkbox" name="" id="">&nbsp;&nbsp;Rember Password <br><br>
+
+                        <button id="btn_login" onclick="verfiy_btn_login()">Login</button> <br> <br>
+                        <dd id="login_msg"></dd>
+                </section>
+            </div>
+        </div>
+    
+    </main>
+    <footer></footer>
+    <script src="frame.js"></script>
+</body>
+</html>

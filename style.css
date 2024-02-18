@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainbody{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.videobg{
+    z-index: -1;
+}
+/* main blue box in flex */
+.mainbox{
+    width: 400px;
+    height: 550px;
+    background-color: rgba(0, 145, 255, 0.363);
+    border-radius: 20px;
+    margin-top: 60px;
+    padding: 15px;
+}
+/* ---------------------- */
+.box1{
+    margin: auto;
+    background-color: blueviolet;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+#btn1one{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+#btn1one:hover{
+    background-color: rgba(0, 255, 255, 0.637);
+}
+#btn1two{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+#btn1two:hover{
+    background-color: rgba(0, 255, 255, 0.637);
+}
+.form_login{
+    /* display: flex; */
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    height: 200px;
+    padding: 10px;
+}
+.form_login input{
+    margin-left: 15%;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.form_login  p{
+    text-align: justify;
+}
+#btn_login{
+    /* margin-left: 50%; */
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: greenyellow;
+    margin-left: 30%;
+}
+
+.form_login  dd{
+    margin-left: 20%;
+    
+}
